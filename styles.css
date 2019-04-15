@@ -1,0 +1,100 @@
+body {
+	background-color:#F1F3F6;
+	color:#374767;
+	font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	overflow-x:hidden;
+	overflow-y:auto;
+	font-size:14px;
+  	line-height:1.42857;		  	
+}
+html, body {
+  	min-height:100%;
+}
+.login-wrapper {
+  padding:10px;
+}
+.container-center {
+  margin:10% auto 0;
+  max-width:400px;
+  padding:20px;
+}
+.panel {
+  box-shadow:none;
+  overflow:hidden;
+}
+.panel-bd, .panel-primary, .panel-success, .panel-info, .panel-warning, .panel-danger, .panel-inverse {
+  border:1px solid #E1E6EF;
+}
+.panel-bd > .panel-heading {
+  background-color:#FFFFFF;
+  border-color:#E4E5E7;
+  color:#374767;
+  position:relative;
+}
+.view-header {
+  margin:10px 0;
+}
+.panel-bd > .panel-heading {
+  color:#374767;
+}
+.view-header .header-icon {
+  color:#37A000;
+  float:left;
+  font-size:60px;
+  line-height:0;
+  margin-top:-8px;
+  width:68px;
+}
+
+.view-header .header-title {
+  margin-left:68px;
+}
+.view-header .header-title h3 {
+  margin-bottom:2px;
+}
+.panel .panel-heading h1, .panel .panel-heading h2, .panel .panel-heading h3, .panel .panel-heading h4, .panel .panel-heading h5, .panel .panel-heading h6 {
+  letter-spacing:0.5px;
+  line-height:26px;
+  margin:0;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family:"Alegreya Sans", sans-serif;
+}
+small, .small {
+  font-size:85%;
+}
+.form-control {
+  border:1px solid #E4E5E7;
+  border-radius:0;
+  box-shadow:none;
+}
+.btn-success {
+  background-color:#37A000;
+  border-color:#318D01;
+}
+.btn-success:hover{
+	background-color:#45C203
+}
+.btn {
+  border-radius:2px;
+}
+.btn-primary, .btn-primary:hover, .btn-success, .btn-success:hover, .btn-warning, .btn-warning:hover, .btn-danger, .btn-danger:hover, .btn-inverse, .btn-inverse:hover, .btn-purple, .btn-purple:hover, .btn-pink, .btn-pink:hover, .btn-black, .btn-black:hover, .btn-violet, .btn-violet:hover {
+  color:#FFFFFF;
+}
+.panel-footer {
+  background-color:#F7F9FA;
+  border-top:1px solid #E1E6EF;
+}
+element.style {
+  cursor:pointer;
+  font-size:12px;
+}
+.table-bordered {
+  border:1px solid #E4E5E7;
+}
+.table > thead > tr > th, .table > tfoot > tr > th {
+  border-bottom:0;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+  border-top:1px solid #E4E5E7;
+}
